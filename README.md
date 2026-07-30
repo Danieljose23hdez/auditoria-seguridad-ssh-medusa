@@ -23,7 +23,7 @@ El objetivo fue identificar configuraciones criptográficas propensas a degradac
 ### 2.1 Identificación de Restricciones Legacy
 Durante la fase inicial de intrusión automatizada empleando la suite **THC-Hydra**, el subsistema criptográfico del sistema atacante interrumpió el *handshake* debido a políticas estrictas de seguridad de la plataforma moderna. El servidor objetivo obligaba al uso de algoritmos de intercambio de llaves obsoletos (`ssh-rsa` / `ssh-dss`).
 
-```text
+text
 [ERROR] Key Exchange Error - Remote host requires deprecated cryptographic primitives.
 
 A continuación se presenta la evidencia del rechazo de la negociación por falta de compatibilidad de cifrado:
